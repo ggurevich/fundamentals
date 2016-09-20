@@ -11,9 +11,27 @@ h1 {
 	width: 600px;
 	align: center;
 }*/
+body{
+	background-color: orange;
+}
 
+#circle{
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin: 20px 0px 0px 20px;
+	position: absolute;
+}
 
-
+#square{
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	border-radius: 10px 10px 5px 3px;
+	margin: 20px 0px 0px 150px;
+	position: absolute;
+}
 
 
 .margins {
@@ -24,4 +42,11 @@ h1 {
 	margin-left: 75px;
 */
 	margin: 75px 75px 75px 75px;
+}
+
+.margin-experiment{
+	height: 40px;
+	background-color: blue;
+	border: 5px solid pink;
+
 }

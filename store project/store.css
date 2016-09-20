@@ -1,0 +1,13 @@
+body{
+	background-color: orange;
+}
+
+h1{
+	text-align: center;
+	border: 5px solid black; 
+	height: 40px;
+}
+.navbar{
+	text-align: center;
+	font-size: 50;
+}

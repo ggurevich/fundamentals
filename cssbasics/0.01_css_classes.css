@@ -2,6 +2,9 @@ body {
 	background-color: lightblue;
 }
 
+.css-classes{
+	font-size: 40px;
+}
 .important {
 	color: red;
 }

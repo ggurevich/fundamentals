@@ -49,3 +49,14 @@ bankPin(12345)
 	}
 
 	enterpin(502);
+
+
+function phoneBill(phoneConnect, phoneInsurance, phoneData){
+	
+	return (phoneData+phoneInsurance+phoneConnect);
+	
+}
+
+console.log(phoneBill(20, 10, 15));
+
+

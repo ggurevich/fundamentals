@@ -1,5 +1,7 @@
 body{
-	background-color: orange;
+	background-image: url(img/rainbow.jpg);
+	 height:1000px;
+	 width: 100%;
 }
 
 h1{
@@ -13,9 +15,27 @@ h1{
 }
 #featurecake{
 	background-color: green;
-	height: 600px;
-	width: 400px;
-} 
+	width: 50%;
+	} 
 #feature{
 	float: left;
+	width: 50%;
 }
+
+#daily{
+	float: right;
+}
+#dailydesc{
+	background-color: blue;
+}
+#weeklydesc{
+	background-color: pink;
+}
+#special{
+
+}
+.img{
+	position: 5px 5px 5px 5px;
+}
+
+

@@ -8,7 +8,7 @@ $(document).ready(function(){
 		$("#image").show();
 	});
 	$("#fadeIn").click(function(){
-		$("#image").fadeIn(50000);
+		$("#image").fadeIn(5000);
 	});
 	$("#explode").click(function(){
 		$("#image").hide("explode", { pieces: 512}, 5000);

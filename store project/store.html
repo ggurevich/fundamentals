@@ -11,76 +11,82 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+  	
+  	<!--google fonts-->
 
+  	<link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="store.css">
 
 </head>
-<body style="max-width: 100%">
-	<h1>Caketastic!</h1>
+<body style="max-width: 100%;">
 
+	
 <!--links at top-->
 	
 	<section>
-		<div class="navbar">
-			<nav>
-			<a href="">shop</a>
-			<a href="">coupons</a>
-			<a href="">locate store</a>
-			</nav>
-			
-			
+		<div class="navbar fonts col-sm-12">
+			<div class="row fonts">
+				<ul class="nav nav-pills">
+					<li><a href=""><h1>Caketastic</h1></a></li>				
+					<li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><h1>Shop</h1></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><h1>Cartoons</h1></a></li>
+						<li><a href="#"><h1>Holiday</h1></a></li>
+						<li><a href="#"><h1>Birthday</h1></a></li>
+						<li><a href="#"><h1>Wedding</h1></a></li>
+					</ul>
+					</li>
+					<li><a href="#"><h1>Coupons</h1></a></li>
+					<li><a href="#"><h1>Locate Store</h1></a></li>
+
+
+				</ul>
+            
+        	</div>
 		</div>
 	</section>
+	<!--product-->
+	<section>
+		<div class="container" style="width: 100vw">
+			<div class="row" style="width: 100%; margin: 0 auto;">
+				<div class="col-sm-12">
 
-<section>
-<!--featured cake-->
-
-
-<!--feature layout-->
-	<section id = "feature" style="width: 50%;">
-		<div class="container">
-			<div class="row">
+			<!--featured cake-->
 				<div class="col-sm-8" style="float: left;">
 
 
 			<!--feature image-->
 
 
-					<div class="col-sm-4" style="float: left; width: 50%">
+					<div class="col-sm-4" style="float: left; max-width: 50%">
 						<img class="img" src="img/sponge.jpg" height="600px">		
 					</div>
 
 			<!--feature description-->
-					<div id ="featurecake" class="col-sm-4" style="float: right; height: 600px">
+					<div id ="featurecake" class="col-sm-4 fonts" style="float: right; height: 600px; max-width: 50%">
 						<h2>Freatured Cake!</h2>
-							<ul>
-								<li>Marble cake</li>
-								<li>Buttercreame frosting</li>
-								<li>Comes with decorative toys for kids</li>
-							</ul>
+							
+								<p>Marble cake</p>
+								<p>Buttercreame frosting</p>
+								<p>Comes with decorative toys for kids</p>
+							
 					</div>
 				</div>
-
-				<div class="col-sm-4">
+			<!--specials-->
+				<div class="col-sm-4" style="float: right; width: 50% max-width;">
 					<div class="row">
-
 			<!--daily image-->
-
 						<div class="col-sm-2" style="float: left; width: 50%">
-							<img src="img/balloon.jpg" height="300px">
+							<img src="img/balloon.JPG" height="300px">
 						</div>
-
-
-			<!--daily special description-->
-				
-	
-						<div id="dailydesc" class="col-sm-2" style="float: right; height: 300px; width: 50%">
+			<!--daily special description-->	
+						<div id="dailydesc" class="col-sm-2 fonts" style="float: right; height: 300px; width: 50%">
 							<h3>Daily special</h3>
-								<ul>
-									<li>cholcolate</li>
-									<li>iced frosting</li>
-									<li>perfect for pixar fans</li>
-								</ul>
+								
+									<p>cholcolate</p>
+									<p>iced frosting</p>
+									<p>perfect for pixar fans</p>
+								
 						</div>
 					</div>
 
@@ -90,27 +96,23 @@
 							<img src="img/flower.jpg" height="300px">
 						</div>
 			<!--weekly special description-->
-						<div id="weeklydesc" class="col-sm-2" style="float: right; height: 300px; width: 50%">
-							<h4>weekly special</h4>
-								<ul>
-									<li>yellow cake</li>
-									<li>buttercreame frosting</li>
-									<li>artisan style</li>
-								</ul>
+						<div id="weeklydesc" class="col-sm-2 fonts" style="float: right; height: 300px; width: 50%">
+							<h3>weekly special</h3>
+								
+									<p>yellow cake</p>
+									<p>buttercreame frosting</p>
+									<p>artisan style</p>
+								
 						</div>
 					</div>
+				</div>
 				</div>
 			</div>
 		</div>
 	</section>
-</section>
 
+	<footer><h2>&copy Gabriel Gurevich 2016</h2></footer>
 
-
-
-
+	<script src="../store project/store.js"></script>
 </body>
-
-
-
 </html>

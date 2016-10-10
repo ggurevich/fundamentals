@@ -2,28 +2,30 @@ body{
 	background-image: url(img/rainbow.jpg);
 	background-size: 100%;
 }
-
-h1{
+header{
+	color: blue;
+	font-size: 40px;
+	text-shadow: 0 0 4px green, 0 0 4px green, 0 0 4px green, 0 0 4px green, 0 0 4px green;
+}
+footer{
+	color: black;
+}
+.coil{
 	color: red;
-	text-align: center;	 
-	height: 40px;
 }
 .navbar{
 	text-align: center;
 	font-size: 50;
 }
 #featurecake{
-	background-color: green;
 	width: 50%;
-	color: yellow;
+	color: orange;
 	} 
 #dailydesc{
-	background-color: blue;
-	color:white;
+	color: orange;
 }
 #weeklydesc{
-	background-color: pink;
-	color:blue;
+	color: orange;
 }
 .fonts{
 	font-family: 'Shrikhand', cursive;
@@ -32,4 +34,10 @@ h1{
 .margins{
 	margin: 5px;
 	padding: 5px;
+}
+.greenshadow{
+	text-shadow: 0 0 4px blue, 0 0 4px blue, 0 0 4px blue, 0 0 4px blue, 0 0 4px blue;
+}
+.img{
+	height: 300px;
 }
